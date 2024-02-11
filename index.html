@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List-Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="displayDate()">
+    
+    <div class="container">
+        <div class="todoapp">
+            <h2>To-Do List <img src="icon.png" alt=""></h2>
+          <h5><p id="currentDate"></p></h5>
+            
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your goal">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="check">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li> -->
+            </ul>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
